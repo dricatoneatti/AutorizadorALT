@@ -28,10 +28,10 @@ public class FacilitadorFuncoes extends DriverPage {
 
         // Condição caso apareça a mensagem "Session Alredy Active"
         if (getElementXpath ("//div[@id='maincontent']") != null) {
-            getElement ("ctl00_MainPlaceHolder_btnTerminateSession").click ();
+            getElementXpath ("ctl00_MainPlaceHolder_btnTerminateSession").click ();
         }
         //TESTAR
-        getElement ("ctl00_MainPlaceHolder_btnGo").click ();
+        getElementXpath ("//div[@id='maincontent']//input[@id='ctl00_MainPlaceHolder_btnGo']").click ();
 
     }
 
