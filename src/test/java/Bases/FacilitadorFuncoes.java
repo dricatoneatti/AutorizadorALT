@@ -53,6 +53,7 @@ public class FacilitadorFuncoes extends DriverPage {
             getElementXpath ("//a[@id='ctlSearch_btnFind']").click ();
         }
     }
+
     public void buscaPorCartao() {
         //Acessar o campo Card Number
         driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
