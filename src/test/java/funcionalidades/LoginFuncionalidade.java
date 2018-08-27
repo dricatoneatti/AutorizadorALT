@@ -18,7 +18,7 @@ import pageobjects.LoginPage;
             page.getSenha().click();
             page.getSenha().sendKeys();
             page.getBtnLogon().click();
-        }
+    }
         public void alterarIdioma(){
             driver.switchTo().frame("bannerFrame");
 

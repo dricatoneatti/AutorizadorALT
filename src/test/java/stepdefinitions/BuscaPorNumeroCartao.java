@@ -11,16 +11,16 @@ public class BuscaPorNumeroCartao {
 
     @Dado("^Que o Tsprime seja inicializado e o usuário \"([^\"]*)\" e a senha \"([^\"]*)\"$")
     public void queOTsprimeSejaInicializadoEOUsuárioEASenha(String usuario, String senha) throws Throwable {
-        facilit.getChrome ("https://10.113.3.24/PRIME4/TSPrimeRoot/Default.aspx");
+
         facilit.efetuarLogin ("", "");
         facilit.alterarIdioma ();
     }
 
     @Quando("^Iniciar a procura de um cliente pelo número do cartão$")
-    public void iniciarAProcuraDeUmClientePeloNúmeroDoCartão() throws Throwable {
-        facilit.opcaoatendimentoCliente ();
-        facilit.buscaPorCartao ();
-        facilit.buscaPorNumeroCartao ();
+        public void iniciarAProcuraDeUmClientePeloNúmeroDoCartão() throws Throwable {
+            facilit.opcaoatendimentoCliente ();
+            facilit.buscaPorCartao ();
+            facilit.buscaPorNumeroCartao ();
 
     }
 

@@ -163,6 +163,7 @@ public class FacilitadorFuncoes extends DriverPage {
     public void fecharTsPrime(){
         driver.close ();
     }
+
     public void acessarTransacaoNegadaCartaoInativoAutorizador() throws Exception{
         // Criar um Array List que receba os dados da planilha do Excel em que é enviada para a classe "LerExcel" a PRIMEIRA COLUNA com os dados (0).
         ArrayList<String> lista = LerExcel.leituraCartao (0);
