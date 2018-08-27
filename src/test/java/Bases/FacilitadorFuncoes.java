@@ -41,10 +41,16 @@ public class FacilitadorFuncoes extends DriverPage {
         getElementXpath ("//option[@value='pt-BR']").click ();
     }
 
+
+
+
+
+
+
+
     public void buscaPorNumeroCartao()throws Exception {
         // Criar um Array List que receba os dados da planilha do Excel em que é enviada para a classe "LerExcel" a PRIMEIRA COLUNA com os dados (0).
         ArrayList<String> lista = LerExcel.leituraCartao (0);
-
 
         //Estrutura de repetição que realiza o teste para cada cartão
         for (int i = 1; i < lista.size (); i++) {

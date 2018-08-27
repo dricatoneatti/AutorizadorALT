@@ -7,7 +7,7 @@ import cucumber.api.java.pt.Quando;
 
 
 public class BuscaPorNumeroDeCpf {
-    FacilitadorFuncoes facilit = new FacilitadorFuncoes ();
+    /*FacilitadorFuncoes facilit = new FacilitadorFuncoes ();
 
     @Dado("^Que o Tsprime seja inicializado e o usuário \"([^\"]*)\" e a senha \"([^\"]*)\"$")
     public void queOTsprimeSejaInicializadoEOUsuárioEASenha(String usuario, String senha) throws Throwable {
@@ -29,6 +29,6 @@ public class BuscaPorNumeroDeCpf {
         System.out.println ("O cartão foi consultado com sucesso");
         facilit.fecharTsPrime ();
     }
-
+*/
 
 }
