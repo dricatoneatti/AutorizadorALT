@@ -21,7 +21,8 @@ import pageobjects.LoginPage;
     }
         public void alterarIdioma(){
             driver.switchTo().frame("bannerFrame");
-
+            page.getLanguageCbb().click();
+            page.getLanguageCbbPtbr().click();
         }
         //ações dos elementos Funciolidades
 }
