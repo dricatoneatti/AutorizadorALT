@@ -41,6 +41,18 @@ public class FacilitadorFuncoes extends DriverPage {
         getElementXpath ("//option[@value='pt-BR']").click ();
     }
 
+    public void buscaPorNumeroCartao()throws Exception {
+        // Criar um Array List que receba os dados da planilha do Excel em que é enviada para a classe "LerExcel" a PRIMEIRA COLUNA com os dados (0).
+        ArrayList<String> lista = LerExcel.leituraCartao (0);
+
+
+        //Estrutura de repetição que realiza o teste para cada cartão
+        for (int i = 1; i < lista.size (); i++) {
+            //Acessar a caixa de texto para pesquisa por cartão e inserir os números extraídos do excel
+            getElementXpath ("//div[@id='ctlSearch_update']//input[@name='ctlSearch$txtfind']").sendKeys (lista.get (i));
+            getElementXpath ("//a[@id='ctlSearch_btnFind']").click ();
+        }
+    }
     public void buscaPorCartao() {
         //Acessar o campo Card Number
         driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
@@ -147,7 +159,9 @@ public class FacilitadorFuncoes extends DriverPage {
         }
         buscaPorCartao ();
     }
-
+    public void fecharTsPrime(){
+        driver.close ();
+    }
     public void acessarTransacaoNegadaCartaoInativoAutorizador() throws Exception{
         // Criar um Array List que receba os dados da planilha do Excel em que é enviada para a classe "LerExcel" a PRIMEIRA COLUNA com os dados (0).
         ArrayList<String> lista = LerExcel.leituraCartao (0);
@@ -213,5 +227,7 @@ public class FacilitadorFuncoes extends DriverPage {
         }
 
     }
+
+
 }
 
