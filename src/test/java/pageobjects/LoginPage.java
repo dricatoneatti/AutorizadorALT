@@ -1,10 +1,16 @@
 package pageobjects;
 
 import configuration.BaseTest;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends BaseTest {
+
+    public LoginPage(WebDriver driver){
+        PageFactory.initElements (driver, this);
+    }
 
     //Page factory
     @FindBy(id = "ctl00_MainPlaceHolder_txtUserName")
@@ -21,6 +27,9 @@ public class LoginPage extends BaseTest {
 
     @FindBy (id = "ctl00_MainPlaceHolder_btnTerminateSession")
     private WebElement btnTerminateSession;
+
+    @FindBy(xpath = "//div[@id=\"maincontent\"]//input[@type=\"submit\"")
+    private WebElement btnContinue;
 
     @FindBy (xpath = "//div[@id='maincontent']//input[@id='ctl00_MainPlaceHolder_btnGo']")
     private WebElement mainPlaceHolderBtnGo;
@@ -61,6 +70,10 @@ public class LoginPage extends BaseTest {
 
     public WebElement getLanguageCbbPtbr() {
         return languageCbbPtbr;
+    }
+
+    public WebElement getBtnContinue() {
+        return btnContinue;
     }
 
 

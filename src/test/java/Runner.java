@@ -14,8 +14,10 @@ import org.junit.runner.RunWith;
         //Valida se o mapeamento DOS TESTES está correto (true)
         dryRun = false,
         //Valida os passos
-        strict = false
+        strict = false,
+        tags = {"@ct001"}
         )
+
 
 public class Runner {
 

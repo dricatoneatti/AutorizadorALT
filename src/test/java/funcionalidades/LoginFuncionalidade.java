@@ -9,20 +9,27 @@ import pageobjects.LoginPage;
 
         //construtor padrão
         public LoginFuncionalidade(){
-            page = new LoginPage();
+            page = new LoginPage(driver);
         }
 
-        public void logarTsPrime(String conta, String senha){
+        public void logarTsPrime(String usuario, String senha){
             page.getUsuario().click();
-            page.getUsuario().sendKeys(conta);
+            page.getUsuario().sendKeys(usuario);
             page.getSenha().click();
-            page.getSenha().sendKeys();
+            page.getSenha().sendKeys(senha);
             page.getBtnLogon().click();
+
+            if(page.getMainContent().isDisplayed ()){
+            page.getBtnTerminateSession().click();
+            page.getMainPlaceHolderBtnGo ().click();
+
+            }else { page.getMainPlaceHolderBtnGo().click ();
+            }
     }
         public void alterarIdioma(){
             driver.switchTo().frame("bannerFrame");
             page.getLanguageCbb().click();
             page.getLanguageCbbPtbr().click();
         }
-        //ações dos elementos Funciolidades
+        //ações dos elementos Funcionalidades
 }

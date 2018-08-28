@@ -11,9 +11,8 @@ public class Hooks extends BaseTest {
         getChrome("https://10.113.3.24/PRIME4/TSPrimeRoot/Default.aspx");
     }
 
-
+/*
     @After(value = "@tsprime")
     public void tearDown() {
-        tearDown();
+        tearDown();*/
     }
-}
