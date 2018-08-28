@@ -23,14 +23,17 @@ public class FacilitadorPage extends BaseTest {
     @FindBy(xpath = "//a[@id='ctlSearch_btnFind']")
     private WebElement botaoPesquisa;
 
-    @FindBy (xpath = "//div[@class='col-one']//span[@id='MainPageAccUC_AccBalance']")
-    private WebElement saldoCreditoCartao;
+    @FindBy (xpath = "//div[@class='col-one']//span[@id='MainPageAccUC_AccCreditLimit']")
+    private WebElement saldoLimiteCartao;
 
     @FindBy (xpath = "//div[@id=\"MainPageCustUC_CustomerPanel\"]")
     private WebElement painelCliente;
 
     @FindBy (xpath = "//div[@class='col-one']//span[@id='MainPageAccUC_AccBalance']")
     private WebElement campoSaldoCredito;
+
+    @FindBy (xpath = "//div[@class='search-box']//option[contains(text(),'Conta')]")
+    private WebElement selecionarOpcaoConta;
 
     public WebElement getMenuAtendimentoCliente() {
         return menuAtendimentoCliente;
@@ -44,12 +47,16 @@ public class FacilitadorPage extends BaseTest {
         return botaoPesquisa;
     }
 
-    public WebElement getSaldoCreditoCartao() {
-        return saldoCreditoCartao;
+    public WebElement getSaldoLimiteCartao() {
+        return saldoLimiteCartao;
     }
 
     public WebElement getPainelCliente() {
         return painelCliente;
+    }
+
+    public WebElement getSelecionarOpcaoConta() {
+        return selecionarOpcaoConta;
     }
 
     //Localizar o xpath da opção Conta e CPF no TSPrime

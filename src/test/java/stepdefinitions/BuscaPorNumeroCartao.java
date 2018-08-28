@@ -31,7 +31,7 @@ public class BuscaPorNumeroCartao {
 
     @Então("^A consulta por catão foi realizada com sucesso e os dados do cliente foram apresentados$")
     public void aConsultaPorCatãoFoiRealizadaComSucessoEOsDadosDoClienteForamApresentados() throws Throwable {
-        System.out.println ("O cartão foi consultado com sucesso");
+        System.out.println ("Os cartões foram consultados com sucesso");
 
     }
 }
