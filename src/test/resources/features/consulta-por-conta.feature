@@ -1,8 +1,8 @@
 # language: pt
 
-Funcionalidade: Parametros
+Funcionalidade: Parametros - Consultas
 
-  @tsprime @ct002
+    @tsprime @ct002
   Cenario: Realizar consulta de um cliente pelo número da conta
     Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
     Quando Iniciar a procura de um cliente pelo número da conta

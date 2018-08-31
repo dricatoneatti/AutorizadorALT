@@ -35,6 +35,15 @@ public class FacilitadorPage extends BaseTest {
     @FindBy (xpath = "//div[@class='search-box']//option[contains(text(),'Conta')]")
     private WebElement selecionarOpcaoConta;
 
+    @FindBy(xpath = "//div[@class=\"action-group\"]//img[@title=\"Extratos\"]")
+    private WebElement acessarExtratos;
+
+    @FindBy(xpath = "//table[@class=\"grid\"]//a[@id='ctl00_col_gvSelectionList_ctl02_grvLinkButton']")
+    private WebElement acessarFaturaAtual;
+
+    @FindBy(xpath = "//input[@name=\"ctl00$col$btnview\"]")
+    private WebElement acessarBtnVisualizar;
+
     public WebElement getMenuAtendimentoCliente() {
         return menuAtendimentoCliente;
     }
@@ -57,6 +66,18 @@ public class FacilitadorPage extends BaseTest {
 
     public WebElement getSelecionarOpcaoConta() {
         return selecionarOpcaoConta;
+    }
+
+    public WebElement getAcessarExtratos() {
+        return acessarExtratos;
+    }
+
+    public WebElement getAcessarFaturaAtual() {
+        return acessarFaturaAtual;
+    }
+
+    public WebElement getAcessarBtnVisualizar() {
+        return acessarBtnVisualizar;
     }
 
     //Localizar o xpath da opção Conta e CPF no TSPrime

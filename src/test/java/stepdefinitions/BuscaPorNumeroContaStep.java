@@ -7,10 +7,10 @@ import funcionalidades.FacilitadorFuncionalidade;
 import funcionalidades.LoginFuncionalidade;
 
 
-public class BuscaPorNumeroConta {
+public class BuscaPorNumeroContaStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public BuscaPorNumeroConta(){
+    public BuscaPorNumeroContaStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
 

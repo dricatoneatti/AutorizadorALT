@@ -21,7 +21,7 @@ public class FacilitadorFuncionalidade extends BaseTest {
         driver.switchTo ().defaultContent ();
     }
 
-    public void buscarCartao() throws Exception {
+    public void buscarCartoes() throws Exception {
         ArrayList<String> listaCartao = LerExcel.leituraCartao (0);
 
         for (int i = 1; i < listaCartao.size (); i++) {
@@ -53,7 +53,7 @@ public class FacilitadorFuncionalidade extends BaseTest {
             page.getCampoNumeroCliente ().sendKeys (listaConta.get (i));
             page.getBotaoPesquisa ().click ();
 
-            driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
+            driver.manage ().timeouts ().implicitlyWait (15, TimeUnit.SECONDS);
             driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
             String saldo = page.getSaldoLimiteCartao ().getText ();
             System.out.println ("Saldo do crédito da conta pesquisada " + listaConta.get (i) + ": " + saldo);
@@ -64,4 +64,26 @@ public class FacilitadorFuncionalidade extends BaseTest {
             }
         }
     }
+
+    public void buscarCartao(String cartao){
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardLeftPage");
+        page.getCampoNumeroCliente ().clear ();
+        page.getCampoNumeroCliente ().sendKeys(cartao);
+        page.getBotaoPesquisa ().click ();
+
+
+    }
+
+    public void visualizarFatura(){
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+        page.getAcessarExtratos ().click ();
+        page.getAcessarFaturaAtual ().click ();
+        page.getAcessarBtnVisualizar ().click ();
+        driver.switchTo ().defaultContent ();
+    }
+
+
+
+
 }
