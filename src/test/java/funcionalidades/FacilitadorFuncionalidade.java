@@ -71,9 +71,14 @@ public class FacilitadorFuncionalidade extends BaseTest {
         page.getCampoNumeroCliente ().sendKeys(cartao);
         page.getBotaoPesquisa ().click ();
 
-
     }
 
+    public void buscarConta(String conta) {
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardLeftPage");
+        page.getSelecionarOpcaoConta ().click ();
+        page.getCampoNumeroCliente ().sendKeys (conta);
+        page.getBotaoPesquisa ().click ();
+    }
     public void visualizarFatura(){
         driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
         driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");

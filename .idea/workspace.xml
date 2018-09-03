@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa2864f-57ad-4404-bebf-8ae43bd2255f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/FacilitadorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/FacilitadorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartaoStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroContaStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consulta-de-cartao.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/consulta-por-conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/consulta-por-conta.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/verificar-visualizacao-da-fatura.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,31 +81,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="feature" value="22" />
-          <entry key="java" value="65" />
+          <entry key="feature" value="40" />
+          <entry key="java" value="85" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Cucumber" value="22" />
-          <entry key="JAVA" value="65" />
+          <entry key="Cucumber" value="40" />
+          <entry key="JAVA" value="85" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
-          <entry key="feature" value="832" />
-          <entry key="java" value="2387" />
+          <entry key="dummy" value="89" />
+          <entry key="feature" value="1224" />
+          <entry key="java" value="2634" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="832" />
-          <entry key="JAVA" value="2387" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Cucumber" value="1224" />
+          <entry key="JAVA" value="2634" />
+          <entry key="PLAIN_TEXT" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -128,100 +119,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartaoStep.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorCartaoStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-de-cartao.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-              <folding>
-                <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
-                <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
-                <element signature="method#buscarContas#0;class#FacilitadorFuncionalidade#0" />
-                <element signature="method#buscarCartao#0;class#FacilitadorFuncionalidade#0" />
-                <element signature="method#visualizarFatura#0;class#FacilitadorFuncionalidade#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroContaStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/FacilitadorPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-              <folding>
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
-                <element signature="e#2227#2228#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="275">
               <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -242,12 +145,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="204">
               <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
+                <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
+                <element signature="method#buscarContas#0;class#FacilitadorFuncionalidade#0" />
+                <element signature="method#buscarCartao#0;class#FacilitadorFuncionalidade#0" />
+                <element signature="method#buscarConta#0;class#FacilitadorFuncionalidade#0" />
+                <element signature="method#visualizarFatura#0;class#FacilitadorFuncionalidade#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+              <folding>
+                <element signature="e#55#398#0" />
+                <element signature="e#409#771#0" />
+                <element signature="e#773#1148#0" />
+                <element signature="e#1187#1571#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorCartao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -276,15 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/LerExcel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FacilitadorFuncoesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RealizarCompraOffusAvistaChipAprovada.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DriverPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FacilitadorFuncoes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber.feature" />
-        <option value="$PROJECT_DIR$/Bases/cucumber.feature" />
-        <option value="$PROJECT_DIR$/Bases/FacilitadorFuncoes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConsultaCreditoRotativo.java" />
         <option value="$PROJECT_DIR$/src/test/java/RealizarCompraEmLojaComCartaoInativoOnUs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cenarios/RealizarCompraEmLojaComCartaoInativoOnUs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Bases/cucumber.feature" />
@@ -318,14 +280,24 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroContaStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartaoStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/FacilitadorPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/consulta-de-cartao.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartaoStep.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/FacilitadorPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorCartaoStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorCartao.java" />
         <option value="$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorContaStep.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/realizar-consulta-conta.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java" />
       </list>
     </option>
   </component>
@@ -469,7 +441,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535743504006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535994495264" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -532,24 +504,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: verificar-visualizacao-da-fatura" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" />
-      <option name="GLUE" value="configuration stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ParametrosBDD" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: verificar-visualizacao-da-fatura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" />
@@ -588,6 +542,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Realizar consulta de um cliente pelo número da conta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature" />
+      <option name="GLUE" value="configuration stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ParametrosBDD" />
+      <option name="NAME_FILTER" value="^Realizar consulta de um cliente pelo número da conta$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente pelo número da conta$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente pelo número da conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Realizar consulta de um cliente por cartão (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature" />
+      <option name="GLUE" value="configuration stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ParametrosBDD" />
+      <option name="NAME_FILTER" value="^Realizar consulta de um cliente por cartão$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente por cartão$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente por cartão" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Realizar consulta de um cliente por cartão" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
@@ -602,34 +594,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verificar a visualização de uma fatura" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Realizar consulta de um cliente por varios cartões" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" />
       <option name="GLUE" value="configuration stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Verificar a visualização de uma fatura$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verificar a visualização de uma fatura$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verificar a visualização de uma fatura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verificar a visualização de uma faturaJKK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" />
-      <option name="GLUE" value="configuration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Verificar a visualização de uma faturaJKK$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verificar a visualização de uma faturaJKK$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verificar a visualização de uma faturaJKK" />
+      <option name="NAME_FILTER" value="^Realizar consulta de um cliente por varios cartões$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente por varios cartões$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente por varios cartões" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -660,19 +633,19 @@
       <item itemvalue="Cucumber java.Feature: Cucumber" />
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente por cartão" />
-      <item itemvalue="Cucumber java.Feature: verificar-visualizacao-da-fatura" />
-      <item itemvalue="Cucumber java.Scenario: Verificar a visualização de uma faturaJKK" />
-      <item itemvalue="Cucumber java.Scenario: Verificar a visualização de uma fatura" />
       <item itemvalue="Cucumber java.Scenario: Realizar a visualização da fatura de um cliente" />
       <item itemvalue="Cucumber java.Scenario: " />
+      <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente por varios cartões" />
+      <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente pelo número da conta" />
+      <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente por cartão (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente pelo número da conta" />
+        <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente por cartão (1)" />
+        <item itemvalue="Cucumber java.Scenario: Realizar consulta de um cliente por varios cartões" />
         <item itemvalue="Cucumber java.Scenario: Realizar a visualização da fatura de um cliente" />
         <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Feature: verificar-visualizacao-da-fatura" />
-        <item itemvalue="Cucumber java.Scenario: Verificar a visualização de uma fatura" />
-        <item itemvalue="Cucumber java.Scenario: Verificar a visualização de uma faturaJKK" />
       </list>
     </recent_temporary>
   </component>
@@ -698,34 +671,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2018.08.31 at 15h 03m 24s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 19m 02s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 15h 05m 58s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 21m 44s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Realizar_a_visualização_da_fatura_de_um_cliente - 2018.08.31 at 15h 06m 26s.xml">
-      <configuration name="Scenario: Realizar a visualização da fatura de um cliente" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 15h 33m 01s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 26m 40s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 15h 44m 05s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 28m 09s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 15h 55m 35s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 48m 07s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 16h 09m 12s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 48m 51s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 16h 19m 38s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 49m 15s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 16h 20m 42s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 50m 32s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.08.31 at 16h 22m 19s.xml">
+    <history-entry file="Runner - 2018.09.03 at 13h 52m 07s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2018.09.03 at 14h 01m 17s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -747,14 +720,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.32796487" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.32650074" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49853587" weight="0.32866043" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5014641" side_tool="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4816984" visible="true" weight="0.4470405" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.4816984" visible="true" weight="0.2990654" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49926794" weight="0.39719626" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -769,34 +742,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.32796487" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49853587" weight="0.32866043" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5014641" side_tool="true" weight="0.32866043" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4816984" visible="true" weight="0.4470405" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49926794" weight="0.39719626" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32866043" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49926794" weight="0.3271028" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.30600291" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -849,34 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Bases/FacilitadorFuncoes.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroDeCpf.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/LerExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="86" lean-forward="true" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LOginpai.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/configuration/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/configuration/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -891,56 +809,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/configuration/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroCartaoStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/configuration/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -953,18 +835,6 @@
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="method#logarTsPrime#0;class#LoginFuncionalidade#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroContaStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,41 +856,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/LerExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding>
-            <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
-            <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
-            <element signature="method#buscarContas#0;class#FacilitadorFuncionalidade#0" />
-            <element signature="method#buscarCartao#0;class#FacilitadorFuncionalidade#0" />
-            <element signature="method#visualizarFatura#0;class#FacilitadorFuncionalidade#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="296">
+          <caret line="26" column="86" lean-forward="true" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="222">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-de-cartao.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorContaStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="238">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
+            <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
+            <element signature="method#buscarContas#0;class#FacilitadorFuncionalidade#0" />
+            <element signature="method#buscarCartao#0;class#FacilitadorFuncionalidade#0" />
+            <element signature="method#buscarConta#0;class#FacilitadorFuncionalidade#0" />
+            <element signature="method#visualizarFatura#0;class#FacilitadorFuncionalidade#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorCartaoStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-conta.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <element signature="e#55#398#0" />
+            <element signature="e#409#771#0" />
+            <element signature="e#773#1148#0" />
+            <element signature="e#1187#1571#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorCartao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VisualizarFaturaStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

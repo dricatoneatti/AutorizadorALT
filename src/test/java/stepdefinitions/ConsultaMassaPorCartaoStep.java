@@ -7,22 +7,20 @@ import funcionalidades.FacilitadorFuncionalidade;
 import funcionalidades.LoginFuncionalidade;
 
 
-public class BuscaPorNumeroCartaoStep {
+public class ConsultaMassaPorCartaoStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public BuscaPorNumeroCartaoStep(){
+    public ConsultaMassaPorCartaoStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
-
-    @Quando("^Iniciar a procura de um cliente pelo número do cartão$")
-    public void iniciarAProcuraDeUmClientePeloNúmeroDoCartão() throws Throwable {
+    @Quando("^Iniciar a procura de varios clientes pelo número do cartão$")
+    public void iniciar_a_procura_de_varios_clientes_pelo_número_do_cartão() throws Throwable {
         facilitadorFacilit.atendimentoAoCliente ();
         facilitadorFacilit.buscarCartoes ();
+
     }
-
-    @Então("^A consulta por catão foi realizada com sucesso e os dados do cliente foram apresentados$")
-    public void aConsultaPorCatãoFoiRealizadaComSucessoEOsDadosDoClienteForamApresentados() throws Throwable {
+    @Então("^A consulta por cartão foi realizada com sucesso e os dados do cliente foram apresentados$")
+    public void a_consulta_por_cartão_foi_realizada_com_sucesso_e_os_dados_do_cliente_foram_apresentados() throws Throwable {
         System.out.println ("Os cartões foram consultados com sucesso");
-
     }
 }
