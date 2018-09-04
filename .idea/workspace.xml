@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa2864f-57ad-4404-bebf-8ae43bd2255f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons/evidencia/Evidencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/planilha.excel/Cartoes.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consulta-de-cartao.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/consulta-por-conta.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConsultaMassaPorCartaoStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorCartaoStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="136">
               <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="FacilitadorFuncionalidade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
                 <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
@@ -173,26 +174,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="consulta-massa-cartao.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
-                <element signature="e#55#398#0" />
-                <element signature="e#409#771#0" />
-                <element signature="e#773#1148#0" />
                 <element signature="e#1187#1571#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="RealizarConsultaPorCartao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorCartao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="10" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="RealizarConsultaPorConta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,10 +210,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Evidencia.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/commons/evidencia/Evidencia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerificarParametrosParaParcelamentoDeFaturaStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="204">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -247,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RealizarCompraEmLojaComCartaoInativoOnUs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cenarios/RealizarCompraEmLojaComCartaoInativoOnUs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Bases/cucumber.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Bases/release184.feature" />
@@ -298,6 +304,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java" />
+        <option value="$PROJECT_DIR$/lib/commons/evidencia/Evidencia.java" />
       </list>
     </option>
   </component>
@@ -360,74 +367,68 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="planilha.excel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="funcionalidades" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutorizadorALT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutorizadorALT" type="462c0819:PsiDirectoryNode" />
+              <item name="ParametrosBDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParametrosBDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -437,7 +438,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,6 +457,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\resources\features" />
+      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\resources" />
+      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java" />
+      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java\stepdefinitions" />
+      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java\runners" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -465,16 +472,10 @@
       <recent name="stepdefinitions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\701033\ProjetoParametrosBDD\ParametrosBDD\lib" />
       <recent name="C:\Users\701033\Autorizador\AutorizadorALT" />
       <recent name="C:\Users\701033\Autorizador\AutorizadorALT\src\test\java\configuration" />
       <recent name="C:\Users\640244\IdeaProjects\Autorizador\Bases" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\resources\features" />
-      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\resources" />
-      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java" />
-      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java\stepdefinitions" />
-      <recent name="C:\Users\640244\IdeaProjects\Autorizador\src\test\java\runners" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,85 +501,50 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" />
-      <option name="GLUE" value="configuration" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: Realizar a visualização da fatura de um cliente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" />
-      <option name="GLUE" value="configuration stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Realizar a visualização da fatura de um cliente$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar a visualização da fatura de um cliente$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Realizar a visualização da fatura de um cliente" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: Realizar consulta de um cliente pelo número da conta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature" />
-      <option name="GLUE" value="configuration stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Realizar consulta de um cliente pelo número da conta$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente pelo número da conta$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente pelo número da conta" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: Realizar consulta de um cliente por cartão (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature" />
-      <option name="GLUE" value="configuration stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Realizar consulta de um cliente por cartão$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente por cartão$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente por cartão" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: Realizar consulta de um cliente por cartão" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
@@ -590,28 +556,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Scenario: Realizar consulta de um cliente por varios cartões" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature" />
-      <option name="GLUE" value="configuration stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ParametrosBDD" />
-      <option name="NAME_FILTER" value="^Realizar consulta de um cliente por varios cartões$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Realizar consulta de um cliente por varios cartões$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Realizar consulta de um cliente por varios cartões" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="ParametrosBDD" />
@@ -621,13 +576,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: Cucumber" />
@@ -712,35 +674,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.32650074" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49853587" weight="0.32866043" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5014641" side_tool="true" weight="0.32866043" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.4816984" visible="true" weight="0.2990654" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49926794" weight="0.39719626" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32866043" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49926794" weight="0.3271028" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32866043" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5014641" side_tool="true" weight="0.32866043" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.30600291" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4816984" weight="0.2990654" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49853587" weight="0.32866043" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33131617" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49926794" weight="0.39719626" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49926794" weight="0.3271028" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32866043" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -751,6 +713,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="TsPrime Teste" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class" />
@@ -785,23 +757,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Bases/DriverPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Cenarios/ConsultaCreditoRotativo.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/FeatureBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/FeatureBuilder.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Bases/FacilitadorFuncoes.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BuscaPorNumeroDeCpf.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/LOginpai.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/verificar-visualizacao-da-fatura.feature" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -813,9 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,12 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="method#logarTsPrime#0;class#LoginFuncionalidade#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,16 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="26" column="86" lean-forward="true" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,30 +808,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorContaStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorContaStep.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidades/FacilitadorFuncionalidade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="method#atendimentoAoCliente#0;class#FacilitadorFuncionalidade#0" />
             <element signature="method#buscarCartoes#0;class#FacilitadorFuncionalidade#0" />
@@ -907,66 +829,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/ConsultaMassaPorCartaoStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-conta.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <element signature="e#55#398#0" />
-            <element signature="e#409#771#0" />
-            <element signature="e#773#1148#0" />
-            <element signature="e#1187#1571#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-cartao.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/realizar-consulta-conta.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/visualizacao-da-fatura.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-conta.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/parametros-parcelamento-fatura.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,7 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="136">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -987,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorCartao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="10" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -997,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/VerificarParametrosParaParcelamentoDeFaturaStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="204">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1009,18 +888,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/RealizarConsultaPorConta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/commons/evidencia/Evidencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consulta-massa-cartao.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#1187#1571#0" />
           </folding>
         </state>
       </provider>
