@@ -58,3 +58,13 @@ Funcionalidade: Parametros - Consultas
     Exemplos:
       |cartao|
       |"4349492776947955"|
+
+  @tsprime @CT005
+  Esquema do Cenario: Verificar acesso a funcionalidade (cartão)
+    Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
+    Quando Iniciar a procura de um cliente pelo número do cartão <cartao>
+    Então A funcionalidade cartão está ativa
+
+    Exemplos:
+      |cartao|
+      |"4349492776947955"|

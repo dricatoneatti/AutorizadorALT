@@ -1,6 +1,9 @@
 package funcionalidades;
 
 import configuration.BaseTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import pageobjects.FacilitadorPage;
 
 import java.util.ArrayList;
@@ -43,7 +46,7 @@ public class FacilitadorFuncionalidade extends BaseTest {
         }
     }
 
-    public void buscarContas() throws Exception{
+    public void buscarContas() throws Exception {
         ArrayList<String> listaConta = LerExcel.leituraCartao (1);
 
         for (int i = 1; i < listaConta.size (); i++) {
@@ -65,10 +68,10 @@ public class FacilitadorFuncionalidade extends BaseTest {
         }
     }
 
-    public void buscarCartao(String cartao){
+    public void buscarCartao(String cartao) {
         driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardLeftPage");
         page.getCampoNumeroCliente ().clear ();
-        page.getCampoNumeroCliente ().sendKeys(cartao);
+        page.getCampoNumeroCliente ().sendKeys (cartao);
         page.getBotaoPesquisa ().click ();
 
     }
@@ -79,7 +82,8 @@ public class FacilitadorFuncionalidade extends BaseTest {
         page.getCampoNumeroCliente ().sendKeys (conta);
         page.getBotaoPesquisa ().click ();
     }
-    public void visualizarFatura(){
+
+    public void visualizarFatura() {
         driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
         driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
         page.getAcessarExtratos ().click ();
@@ -88,7 +92,24 @@ public class FacilitadorFuncionalidade extends BaseTest {
         driver.switchTo ().defaultContent ();
     }
 
+    public void acessarGridCartoes() {
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+        page.getAcessarGridCartao ().click ();
+        page.getAcessarBtnAgir ().click ();
 
+        wait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//ul[@role=\"menu\"]//li[@id=\"ui-id-8\"]")));
+        page.getAcessaOpcaoAltPerfis ().click ();
+        driver.switchTo ().defaultContent ();
+    }
 
+    public void acessarFuncionalidadeCartao() {
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+       if(page.getAcessarFuncionalidadeCartao ().isDisplayed ()){
+           System.out.println ("O perfil possui a funcionalidade para o cartão");
+       }
+
+    }
 
 }

@@ -44,6 +44,22 @@ public class FacilitadorPage extends BaseTest {
     @FindBy(xpath = "//input[@name=\"ctl00$col$btnview\"]")
     private WebElement acessarBtnVisualizar;
 
+    @FindBy(xpath = "//div[@id='MainPageCardxUC_CardPanel']//a[@id='MainPageCardxUC_lblCardHeader']")
+    private  WebElement acessarGridCartao;
+
+    @FindBy(xpath = "//div[@class=\"prime-menu\"]//ul[@id=\"ctl00_PrimeMenuCtrl_ActionMenu\"]")
+    private WebElement acessarBtnAgir;
+
+    @FindBy(xpath = "//ul[@role=\"menu\"]//li[@id=\"ui-id-8\"]")
+    private WebElement acessaOpcaoAltPerfis;
+
+    @FindBy(xpath ="//span[@id='MainPageCardxUC_CardNumber']")
+    private WebElement acessarFuncionalidadeCartao;
+
+    public WebElement getAcessarFuncionalidadeCartao() {
+        return acessarFuncionalidadeCartao;
+    }
+
     public WebElement getMenuAtendimentoCliente() {
         return menuAtendimentoCliente;
     }
@@ -80,6 +96,16 @@ public class FacilitadorPage extends BaseTest {
         return acessarBtnVisualizar;
     }
 
-    //Localizar o xpath da opção Conta e CPF no TSPrime
+    public WebElement getAcessarGridCartao() {
+        return acessarGridCartao;
+    }
 
+
+    public WebElement getAcessarBtnAgir() {
+        return acessarBtnAgir;
+    }
+
+    public WebElement getAcessaOpcaoAltPerfis() {
+        return acessaOpcaoAltPerfis;
+    }
 }
