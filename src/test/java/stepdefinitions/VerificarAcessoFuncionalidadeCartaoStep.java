@@ -4,16 +4,17 @@ import cucumber.api.java.pt.Então;
 import funcionalidades.FacilitadorFuncionalidade;
 import org.junit.Assert;
 
-public class VerificarAcessoFuncionalidadeCartao {
+public class VerificarAcessoFuncionalidadeCartaoStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public VerificarAcessoFuncionalidadeCartao(){
+    public VerificarAcessoFuncionalidadeCartaoStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
 
-    @Então ("^A funcionalidade cartão está ativa$")
+    @Então("^A funcionalidade cartão está ativa \"([^\"]*)\"$")
     public void aFuncionalidadeCartãoEstáAtiva(String cartao) throws Throwable {
         facilitadorFacilit.acessarFuncionalidadeCartao ();
     }
+
 
 }

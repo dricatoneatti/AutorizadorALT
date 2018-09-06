@@ -7,10 +7,10 @@ import funcionalidades.FacilitadorFuncionalidade;
 import funcionalidades.LoginFuncionalidade;
 
 
-public class ConsultaMassaPorCartaoStep {
+public class ConsultaMassaPorCartao {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public ConsultaMassaPorCartaoStep(){
+    public ConsultaMassaPorCartao(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
     @Quando("^Iniciar a procura de varios clientes pelo número do cartão$")
@@ -23,4 +23,6 @@ public class ConsultaMassaPorCartaoStep {
     public void a_consulta_por_cartão_foi_realizada_com_sucesso_e_os_dados_do_cliente_foram_apresentados() throws Throwable {
         System.out.println ("Os cartões foram consultados com sucesso");
     }
+
+
 }

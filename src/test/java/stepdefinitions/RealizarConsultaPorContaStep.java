@@ -3,10 +3,10 @@ package stepdefinitions;
 import cucumber.api.java.pt.Quando;
 import funcionalidades.FacilitadorFuncionalidade;
 
-public class RealizarConsultaPorConta {
+public class RealizarConsultaPorContaStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public RealizarConsultaPorConta(){
+    public RealizarConsultaPorContaStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
     @Quando ("^Iniciar a procura de um cliente pelo número da conta \"([^\"]*)\"$")

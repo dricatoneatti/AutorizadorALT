@@ -63,7 +63,39 @@ Funcionalidade: Parametros - Consultas
   Esquema do Cenario: Verificar acesso a funcionalidade (cartão)
     Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
     Quando Iniciar a procura de um cliente pelo número do cartão <cartao>
-    Então A funcionalidade cartão está ativa
+    Então A funcionalidade cartão está ativa <cartao>
+
+    Exemplos:
+      |cartao|
+      |"4349492776947955"|
+
+  @tsprime @CT006
+  Esquema do Cenario: Verificar acesso a funcionalidade (produto)
+    Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
+    Quando Iniciar a procura de um cliente pelo número do cartão <cartao>
+    Então A funcionalidade produto está ativa
+
+    Exemplos:
+      |cartao|
+      |"4349492776947955"|
+
+
+  @tsprime @CT007
+  Esquema do Cenario: Verificar acesso a funcionalidade (conta)
+    Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
+    Quando Iniciar a procura de um cliente pelo número do cartão <cartao>
+    Então A funcionalidade conta está ativa
+
+    Exemplos:
+      |cartao|
+      |"4349492776947955"|
+
+
+  @tsprime @CT008
+  Esquema do Cenario: Consultar cadastro de endereços
+    Dado Que o Tsprime seja inicializado com o usuário "cl7496_43947451873" e a senha "Cog@2022"
+    Quando Iniciar a procura de um cliente pelo número do cartão <cartao>
+    Então A grid Endereço é apresentada com os dados do Cliente
 
     Exemplos:
       |cartao|

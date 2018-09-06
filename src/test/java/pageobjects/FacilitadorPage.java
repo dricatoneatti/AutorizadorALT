@@ -53,8 +53,27 @@ public class FacilitadorPage extends BaseTest {
     @FindBy(xpath = "//ul[@role=\"menu\"]//li[@id=\"ui-id-8\"]")
     private WebElement acessaOpcaoAltPerfis;
 
-    @FindBy(xpath ="//span[@id='MainPageCardxUC_CardNumber']")
+    @FindBy(xpath ="//div[@id=\"MainPageCardxUC_CardPanel\"]//span[@id=\"MainPageCardxUC_CardNumber\"]")
     private WebElement acessarFuncionalidadeCartao;
+
+    @FindBy(xpath = "//div[@id=\"MainPageCardxUC_CardPanel\"]//span[@id=\"MainPageCardxUC_lblProduct\"]")
+    private WebElement acessarFuncionalidadeProduto;
+
+    @FindBy(xpath = "//div[@id=\"MainPageCardxUC_CardPanel\"]//span[@id=\"MainPageCardxUC_CardProduct\"]")
+    private WebElement acessarDadoCampoProduto;
+
+    @FindBy(xpath = "//div[@id=\"MainPageAccUC_FinDetailsPanel\"]//span[@id=\"MainPageAccUC_lblNumber\"]")
+    private WebElement acessarFuncionalidadeConta;
+
+    @FindBy(xpath = "//div[@id=\"MainPageAccUC_FinDetailsPanel\"]//span[@id=\"MainPageAccUC_AccNumber\"]")
+    private WebElement acessarDadoCampoConta;
+
+    @FindBy (xpath = "//div[@id=\"MainPageAddressesUC_PersonPanel\"]//span[@id='MainPageAddressesUC_lbladdressdetails']")
+    private WebElement acessarFuncionalidadeEndereco;
+
+    @FindBy (xpath = "//div[@id=\"MainPageAddressesUC_PersonPanel\"]//span[@id='MainPageAddressesUC_Add1']")
+    private WebElement acessarDadoCampoEndereco;
+
 
     public WebElement getAcessarFuncionalidadeCartao() {
         return acessarFuncionalidadeCartao;
@@ -100,12 +119,35 @@ public class FacilitadorPage extends BaseTest {
         return acessarGridCartao;
     }
 
-
     public WebElement getAcessarBtnAgir() {
         return acessarBtnAgir;
     }
 
     public WebElement getAcessaOpcaoAltPerfis() {
         return acessaOpcaoAltPerfis;
+    }
+
+    public WebElement getAcessarFuncionalidadeProduto() {
+        return acessarFuncionalidadeProduto;
+    }
+
+    public WebElement getAcessarDadoCampoProduto() {
+        return acessarDadoCampoProduto;
+    }
+
+    public WebElement getAcessarDadoCampoConta() {
+        return acessarDadoCampoConta;
+    }
+
+    public WebElement getAcessarFuncionalidadeConta() {
+        return acessarFuncionalidadeConta;
+    }
+
+    public WebElement getAcessarFuncionalidadeEndereco() {
+        return acessarFuncionalidadeEndereco;
+    }
+
+    public WebElement getAcessarDadoCampoEndereco() {
+        return acessarDadoCampoEndereco;
     }
 }

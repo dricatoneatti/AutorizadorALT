@@ -106,10 +106,41 @@ public class FacilitadorFuncionalidade extends BaseTest {
     public void acessarFuncionalidadeCartao() {
         driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
         driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
-       if(page.getAcessarFuncionalidadeCartao ().isDisplayed ()){
-           System.out.println ("O perfil possui a funcionalidade para o cartão");
-       }
+        if (page.getAcessarFuncionalidadeCartao ().isDisplayed ()) {
+            System.out.println ("O perfil possui a funcionalidade para o cartão");
+        }
 
     }
 
+    public void acessarFuncionalidadeProduto() {
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+        if (page.getAcessarFuncionalidadeProduto ().isDisplayed ()) {
+            String dado = page.getAcessarDadoCampoProduto ().getText ();
+            System.out.println ("O perfil possui a funcionalidade para o produto do cartão pesquisado: " + dado);
+
+        }
+
+
+    }
+
+    public void acessarFuncionalidadeConta() {
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+        if (page.getAcessarFuncionalidadeConta ().isDisplayed ()) {
+            String dado = page.getAcessarDadoCampoConta ().getText ();
+            System.out.println ("O perfil possui a funcionalidade para a conta do cliente pesquisado: " + dado);
+
+        }
+    }
+
+    public void consultarCadastroEnderecos() {
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame").switchTo ().frame ("CardMainPage");
+        if (page.getAcessarFuncionalidadeEndereco ().isDisplayed ()) {
+            String dado = page.getAcessarDadoCampoEndereco ().getText ();
+            System.out.println ("O endereço cadastrado do cliente é: " + dado);
+
+        }
+    }
 }

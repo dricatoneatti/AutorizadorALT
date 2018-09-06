@@ -3,10 +3,10 @@ package stepdefinitions;
 import cucumber.api.java.pt.Quando;
 import funcionalidades.FacilitadorFuncionalidade;
 
-public class RealizarConsultaPorCartao {
+public class RealizarConsultaPorCartaoStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
-    public RealizarConsultaPorCartao(){
+    public RealizarConsultaPorCartaoStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }
 
