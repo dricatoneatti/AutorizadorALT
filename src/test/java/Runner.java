@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         //Valida os passos
         strict = false,
-        tags = {"@CT008"}
+        tags = {"@CT009"}
         )
 
 

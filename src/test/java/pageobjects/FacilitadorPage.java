@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import javax.xml.xpath.XPath;
+import java.nio.file.WatchEvent;
 
 public class FacilitadorPage extends BaseTest {
     public FacilitadorPage(WebDriver driver){
@@ -16,6 +17,9 @@ public class FacilitadorPage extends BaseTest {
     //Page factory
     @FindBy(xpath = "//li[2][text()='Atendimento ao Cliente']")
     private WebElement menuAtendimentoCliente;
+
+    @FindBy(xpath = "//li[2][text()='Terminais']")
+    private WebElement menuTerminais;
 
     @FindBy(xpath = "//div[@id='ctlSearch_update']//input[@name='ctlSearch$txtfind']")
     private  WebElement campoNumeroCliente;
@@ -74,6 +78,14 @@ public class FacilitadorPage extends BaseTest {
     @FindBy (xpath = "//div[@id=\"MainPageAddressesUC_PersonPanel\"]//span[@id='MainPageAddressesUC_Add1']")
     private WebElement acessarDadoCampoEndereco;
 
+    @FindBy(xpath = "//*[@id=\"body_ONLINEACSMAIN_btnSearchTer\"]")
+    private WebElement btnLocalizarTerminal;
+
+    @FindBy(xpath = "//div[@id=\"dvTerminals\"]//table[@class=\"grid\"]//tr[@class=\"grid-odd\"]//td[4]//input[@type=\"text\"]")
+    private WebElement campoValorTerminal;
+
+    @FindBy(xpath = "//div[@class=\"button-footer\"]//input[@name=\"ctl00$body$ONLINEACSSEARCH$terminalSearchFields$btnSearch\"]")
+    private WebElement btnPesquisarTerminal;
 
     public WebElement getAcessarFuncionalidadeCartao() {
         return acessarFuncionalidadeCartao;
@@ -149,5 +161,21 @@ public class FacilitadorPage extends BaseTest {
 
     public WebElement getAcessarDadoCampoEndereco() {
         return acessarDadoCampoEndereco;
+    }
+
+    public WebElement getMenuTerminais() {
+        return menuTerminais;
+    }
+
+    public WebElement getBtnLocalizarTerminal() {
+        return btnLocalizarTerminal;
+    }
+
+    public WebElement  getCampoValorTerminal() {
+        return campoValorTerminal;
+    }
+
+    public WebElement getBtnPesquisarTerminal() {
+        return btnPesquisarTerminal;
     }
 }

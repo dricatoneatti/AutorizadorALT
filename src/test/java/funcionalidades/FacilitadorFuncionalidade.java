@@ -24,6 +24,12 @@ public class FacilitadorFuncionalidade extends BaseTest {
         driver.switchTo ().defaultContent ();
     }
 
+    public void opcaoTerminaisMenu() {
+        driver.switchTo ().frame ("contentFrame");
+        page.getMenuTerminais ().click ();
+        driver.switchTo ().defaultContent ();
+    }
+
     public void buscarCartoes() throws Exception {
         ArrayList<String> listaCartao = LerExcel.leituraCartao (0);
 
@@ -142,5 +148,17 @@ public class FacilitadorFuncionalidade extends BaseTest {
             System.out.println ("O endereço cadastrado do cliente é: " + dado);
 
         }
+    }
+
+    public void validarAberturaDeTerminais(){
+        driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame");
+        driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
+        page.getBtnLocalizarTerminal ().click ();
+    }
+
+    public void inserirValorTerminal(String valor){
+        page.getCampoValorTerminal ().click ();
+        page.getCampoValorTerminal ().sendKeys (valor);
+        page.getBtnPesquisarTerminal ().click ();
     }
 }
