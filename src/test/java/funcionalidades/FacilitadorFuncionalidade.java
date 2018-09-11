@@ -150,15 +150,21 @@ public class FacilitadorFuncionalidade extends BaseTest {
         }
     }
 
-    public void validarAberturaDeTerminais(){
+    public void validarAberturaDeTerminais() {
         driver.switchTo ().frame ("contentFrame").switchTo ().frame ("applicationFrame");
         driver.manage ().timeouts ().implicitlyWait (5, TimeUnit.SECONDS);
         page.getBtnLocalizarTerminal ().click ();
     }
 
-    public void inserirValorTerminal(String valor){
+    public void inserirValorTerminal(String valor) {
         page.getCampoValorTerminal ().click ();
         page.getCampoValorTerminal ().sendKeys (valor);
         page.getBtnPesquisarTerminal ().click ();
     }
+
+
+    public static String acessarNomeDaPagina() {
+        return driver.getTitle ();
+    }
+
 }

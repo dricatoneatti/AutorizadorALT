@@ -6,6 +6,8 @@ import funcionalidades.FacilitadorFuncionalidade;
 public class ConsultarCadastroEnderecosStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
 
+
+
     public ConsultarCadastroEnderecosStep(){
         this.facilitadorFacilit = new FacilitadorFuncionalidade ();
     }

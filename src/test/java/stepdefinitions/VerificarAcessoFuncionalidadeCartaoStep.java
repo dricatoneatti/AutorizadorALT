@@ -2,7 +2,7 @@ package stepdefinitions;
 
 import cucumber.api.java.pt.Então;
 import funcionalidades.FacilitadorFuncionalidade;
-import org.junit.Assert;
+
 
 public class VerificarAcessoFuncionalidadeCartaoStep {
     private FacilitadorFuncionalidade facilitadorFacilit;
